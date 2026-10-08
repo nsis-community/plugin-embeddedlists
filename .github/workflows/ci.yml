@@ -27,5 +27,6 @@ jobs:
           sources: |
             Contrib/EmbeddedLists/EmbeddedLists.cpp
             Contrib/EmbeddedLists/EmbeddedLists.rc
+          targets: x86-ansi,x86-unicode
           strict: false
           release: ${{ github.event_name == 'release' }}
